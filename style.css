@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?l97fgo');
+    src: url('fonts/icomoon.eot?l97fgo#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?l97fgo') format('truetype'), url('fonts/icomoon.woff?l97fgo') format('woff'), url('fonts/icomoon.svg?l97fgo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 5rem 0;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.card .image img {
+    width: 100%;
+}
+
+.card .parg {
+    padding: 2.5rem;
+}
+
+.card .parg h1 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card .parg p {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card .parg button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0;
+    box-shadow: 1px 1px 5px -1px #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card .parg button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.social {
+    text-align: right;
+    padding: 2rem 0;
+}
+
+.social span {
+    color: white;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.social span:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+    text-decoration: none;
+}
